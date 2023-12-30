@@ -1,0 +1,49 @@
+.form1{
+    left: 400px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 600px;
+    height: 150px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.d-flex{
+    margin-top: 30px;
+    width: 50%;
+    position: relative;
+    left: 370px;
+}
+ .form1 img {
+    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 240px;
+    margin-top: 0px;
+}
+
+
+.profile {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-height: 300px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    max-width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+  }
+  

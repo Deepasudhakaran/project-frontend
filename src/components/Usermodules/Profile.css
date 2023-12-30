@@ -1,0 +1,105 @@
+
+.pf-card {
+    background-color: #edc4fe21;
+    position: relative;
+    padding-left: 15px;
+    border-top: solid 2px rgb(98, 2, 139);
+    border-bottom: solid 2px rgb(93, 1, 132);
+    border-radius: 10px;
+ margin-top: 25px;
+    height: 50%;
+  width: 70%;
+  margin-left: 17%;
+  overflow-x: hidden;
+  }
+ 
+
+
+  .about-list {
+    padding-top: 26px;
+  }
+  .about-list .media {
+    padding: 11px 0;
+    display: inline-block;
+
+  }
+  .about-list label {
+    color: #20247b;
+    font-weight:600;
+    font-size: 21px;
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    display: flex;
+    
+  }
+  .about-list label:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    width: 1.5px;
+    height: 12px;
+    background: #20247b;
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    margin: auto;
+    opacity: 6;
+    display: inline-block;
+  }
+  .about-list p {
+    margin: 0;
+    font-size: 20px;
+    display: inline-block;
+    width: 1400px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    .about-avatar {
+      margin-top: 30px;
+    }
+  }
+
+
+  .ebut{
+    padding: 15px;
+    background-color: #4b53e5 ;
+    font-size: 18px;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+  }
+  
+
+  
+
+  .bio-row {
+position: relative;
+margin-left: 10px;
+    float: left;
+    margin-bottom: 10px;
+    padding:0 15px;
+}
+.bio-row p{
+  
+  font-size: 20px;
+  display: inline-block;
+width: 400px;
+  
+}
+
+.bio-row p span {
+    width: 200px;
+    display: inline-block;
+    font-size: 20px;
+    color: #20247b;
+
+    
+}
